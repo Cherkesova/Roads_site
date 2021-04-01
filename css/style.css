@@ -444,19 +444,18 @@ body {
 }
 
 .slick-dots button {
-	width: 15px;
-	height: 15px;
+	width: 16px;
+	height: 16px;
 	cursor: pointer;
 
-	background: #fff;
-	border: none;
+	background-color: transparent;
+	border: 2px solid #fff;
 	border-radius: 50%;
 	font-size: 0;
-	opacity: 0.5;
 }
 
 .slick-dots .slick-active button {
-	opacity: 1;
+	background: #fff;
 }
 
 /* Download */
@@ -663,8 +662,19 @@ body {
 	}
 
 	.review__contant {
-		padding: 40px 15px;
+		padding: 70px 15px 40px;
 		width: 100%;
+	}
+	/* slider dots */
+	.slick-dots {
+		width: 100%;
+		padding-top: 510px;
+	
+		top: 0;
+	}
+
+	.slick-dots li {
+		margin-right: 20px;
 	}
 }
 
@@ -747,6 +757,10 @@ body {
 		transform: translate(0,0);
 	}
 
+	.review__contant {
+		padding-top: 60px;
+	}
+
 	.review__text {
 		font-size: 28px;
 	}
@@ -764,8 +778,20 @@ body {
 		font-size: 24px;
 	}
 
-	.slick-dots{
+	/* .slick-dots{
 		display: none;
+	} */
+
+	/* slider dots */
+	.slick-dots {
+		width: 100%;
+		padding-top: 360px;
+	
+		top: 0;
+	}
+
+	.slick-dots li {
+		margin-right: 20px;
 	}
 
 }
